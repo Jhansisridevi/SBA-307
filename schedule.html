@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Bree Serif;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="form-header">
+        <nav class="navbar fixed-top" style="background-color: #d0bdf4;">
+            <div class="container-fluid">
+                <a href="index.html"><img src="hero-yoga.png" alt="Illustration of a yoga pose"></a><label class="schedule-table">Class Schedule</label>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span style="color:white;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="schedule.html">Schedule</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="form.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Retreats
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>Fall Retreat 2023</a></li><br>
+                                    <li>Winter Retreat 2023</a></li><br>
+                                    <li>Spring Retrest 2024</a></li><br>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="section-schedule">
+            <div class="schedule-table">
+                <h3>Weekdays(M,T,W,Th,F)</h3>
+                <table class="table table-success table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Timing</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Instructor</th>
+                            <th scope="col">Room</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">6.00am-7.00am</th>
+                            <td>Vinyasa</td>
+                            <td>Arya</td>
+                            <td>Group Room</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7.00am-8.00am</th>
+                            <td>HOT Pilates</td>
+                            <td>Sansa</td>
+                            <td>Central-12</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5.00pm-7.00pm</th>
+                            <td>Vinyasa</td>
+                            <td>Miyara</td>
+                            <td>Group Room</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7.00pm-9.00pm</th>
+                            <td>Virtual HOT Pilates</td>
+                            <td>Jane</td>
+                            <td>Central-10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="schedule-table">
+                <h3>Weekends(Sat,Sun)</h3>
+                <table class="table table-success table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Timing</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Instructor</th>
+                            <th scope="col">Room</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">7.30am-8.30am</th>
+                            <td>Hot Pilates Plus</td>
+                            <td>Sansa</td>
+                            <td>Group Room</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8.30am-9.30am</th>
+                            <td>FlowFit</td>
+                            <td>Jenny</td>
+                            <td>Group Room</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4.00pm-6.00pm</th>
+                            <td>Hot Fusion Yoga</td>
+                            <td>Lux</td>
+                            <td>Central-12</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6.00pm-8.00pm</th>
+                            <td>Yoga Sculpt</td>
+                            <td>Maeghan</td>
+                            <td>Central-9</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <p>Made by Jhansi</p>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

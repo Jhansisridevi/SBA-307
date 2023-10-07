@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Event Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif">
+    <style>
+        body {
+            font-family: Bree Serif;
+            background-image: linear-gradient(rgba(171, 173, 179, 0.7), rgb(148, 8, 212));
+        }
+
+        .animate-p {
+            animation-duration: 3s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>>
+</head>
+
+<body class="form-body">
+    <section class="form-header">
+        <nav class="navbar fixed-top" style="background-color: #d0bdf4;">
+            <div class="container-fluid">
+                <a href="index.html"><img src="hero-yoga.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span style="color:white;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="schedule.html">Schedule</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="form.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Retreats
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>Fall Retreat 2023</a></li><br>
+                                    <li>Winter Retreat 2023</a></li><br>
+                                    <li>Spring Retrest 2024</a></li><br>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-container">
+            <h1>Connect with us!!</h1>
+            <p class="animate-p">Please fill out the form below for any enquiries</p>
+            <form class="row g-3 event-form">
+                <div class="mb-3">
+                    <div class="col-md-6">
+                        <label for="validationCustom01" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required><br>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom01" class="form-label">Contact</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Contact"
+                            required><br>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">Comments</label>
+                            <input type="textarea" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter your comments here..">
+                        </div>
+                    </div>
+                    <div class="col-12 comment-button">
+                        <button type="button" class="btn btn-dark">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <h4>Central Street Yoga</h4>
+            <p>23, Central st<br>Chelmsford,<br>Massachusetts<br>Contact:(978)4325456<br></p>
+        </div>
+        <footer>
+            <p>Made by Jhansi</p>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
