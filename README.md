@@ -66,9 +66,7 @@ Forms (input fields, buttons)
 - https://fonts.google.com/
 
 
-## Installation
 
-1. VS Code
 
 ```bash
 git clone https://github.com/Jhansisridevi/SBA-307.git
